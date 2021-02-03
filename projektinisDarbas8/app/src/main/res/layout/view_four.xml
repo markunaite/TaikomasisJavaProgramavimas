@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/field1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6F8C7C"
+        android:layout_weight="1.0"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/group_center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        >
+        <TextView
+            android:id="@+id/field4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="#81ACA0"
+            android:layout_toLeftOf="@id/field5"
+            />
+        <TextView
+            android:id="@+id/field5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="#678991"
+            android:layout_toRightOf="@id/field4"
+            />
+        <TextView
+            android:id="@+id/field6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="#619590"
+            android:layout_toRightOf="@id/field5"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/field3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:background="#4F6E61"
+        />
+
+</LinearLayout>
