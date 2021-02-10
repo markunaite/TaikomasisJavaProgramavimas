@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PraktinisDarbas9</string>
+    <string name="red">RED</string>
+    <string name="skyBlue">SKY_BLUE</string>
+    <string name="pastelGreen">PASTEL GREEN</string>
+    <string name="babyPink">BABY PINK</string>
+    <string name="lilac">LILAC</string>
+</resources>

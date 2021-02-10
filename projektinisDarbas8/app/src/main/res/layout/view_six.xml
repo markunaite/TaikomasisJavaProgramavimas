@@ -18,7 +18,7 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#8AEFE3"
+            android:backgroundTint="#637774"
             android:text="Button"
             />
     </RelativeLayout>
@@ -36,7 +36,7 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#8AEFE3"
+            android:backgroundTint="#637774"
             android:text="Button"
             />
     </RelativeLayout>
@@ -54,7 +54,7 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#8AEFE3"
+            android:backgroundTint="#637774"
             android:text="Button"
             />
     </RelativeLayout>
