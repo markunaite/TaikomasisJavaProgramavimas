@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PraktinisDarbas10</string>
+    <string name="logoText">Pug Lotto number generator</string>
+    <string name="enterHint">Enter number 0-10</string>
+    <string name="buttonText">count</string>
+    <string name="resultText">Result</string>
+    <string name="name">IEVA MARKŪNAITĖ</string>
+</resources>

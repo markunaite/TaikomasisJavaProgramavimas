@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        style="@style/logoTextStyle"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/logoImage"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="260dp"-->
+<!--        android:src="drawable/images"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="20dp"-->
+<!--        />-->
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:hint="@string/enterHint"
+        android:autofillHints="@string/enterHint"
+        />
+
+    <Button
+        android:id="@+id/inputButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:backgroundTint="#4DB6AC"
+        style="@style/buttonText"/>
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        style="@style/outputText"/>
+
+</LinearLayout>
