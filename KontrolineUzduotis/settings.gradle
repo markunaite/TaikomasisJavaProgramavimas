@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "KontrolineUzduotis"
+rootProject.name = "MarkunaitePercentCounter"
