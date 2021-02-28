@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KontrolineUzduotis</string>
+    <string name="enterHint">enter amount</string>
+    <string name="logoTextStyle">PERCENT COUNTER</string>
+    <string name="name">IEVA MARKŪNAITĖ</string>
+    <string name="result">result</string>
+    <string name="tip">tip</string>
+    <string name="total">total</string>
+</resources>
