@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B5A8A3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="260dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/music" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:entries="@array/spinner_values"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_background"
+        style="@style/spinnerDropdown"
+        />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/play"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="40dp"
+        android:contentDescription="@string/play"
+        android:onClick="onClickButton"
+        />
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/stop"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="40dp"
+        android:contentDescription="@string/stop"
+        android:onClick="onClickButton"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/name"
+        android:text="@string/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_values">
+    <item>Melody N1</item>
+    <item>Melody N2</item>
+    <item>Melody N3</item>
+
+    </string-array>
+</resources>

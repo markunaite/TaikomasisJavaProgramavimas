@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicBox</string>
+    <string name="name">Name Surname</string>
+    <string name="play" />
+    <string name="stop" />
+    <string name="logo" />
+</resources>

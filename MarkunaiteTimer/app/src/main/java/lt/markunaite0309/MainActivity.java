@@ -56,13 +56,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void startTimer(){
+    public void startTimer() {
         timer = new Timer();
         timerTask = new AppTimerTask();
         timer.schedule(timerTask, 0, 1000);
     }
 
-    private class AppTimerTask extends TimerTask{
+    private class AppTimerTask extends TimerTask {
         @Override
         public void run() {
             totalTime++;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private Handler updateLabel = new Handler(){
+    private Handler updateLabel = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             long seconds = totalTime % 60;
@@ -79,5 +79,4 @@ public class MainActivity extends AppCompatActivity {
             timerView.setText(String.format("%02d : %02d : %02d", hours, minutes, seconds));
         }
     };
-
 }
